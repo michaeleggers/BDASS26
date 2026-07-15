@@ -35,19 +35,23 @@ val sc = spark.sparkContext
 
 ## 2. Find all duplicate "Account Id"s. Print the ID and how many duplicates for that ID exist.
 
-## 3. List all unique "Deal Stage"s. Also count how many unique Deal Stages exist in total.
+## 3. Sort all captured duplicated IDs by their key in ascending and then descending order.
+
+## 4. Sort all captured duplicated IDs by value in ascending/descending order, (least to most duplicates).
+
+## 4. List all unique "Deal Stage"s. Also count how many unique Deal Stages exist in total.
 
 ## 4. Count the number of rows in the table.
 
 ## 5. In the "Notes" column, find how many unique words appear.
 
-## 6. List how often a word appears in the "Notes" column and list them in ascending order.
+## 6. Count number of words in "Notes" column combined.
 
-## 7. Same as task 6 but list in descending order.
+## 7. List how often a word appears in the "Notes" column and list them in ascending order.
 
 ## 8. Same as task 6 or 7 but give the ratio for each word-appearance in percent. (Average appearance).
 
-## 9. Count how many leads per "Source" exist. So check how many leads came via "Chatbot", "Trade Show", etc.
+## 9. Group all words with same occurence-count.
 
 ## 10. Get names of unique companies.
 
